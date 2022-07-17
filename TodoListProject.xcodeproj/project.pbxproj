@@ -17,6 +17,7 @@
 		F3A03944288464C5003C0587 /* TodoListProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A03943288464C5003C0587 /* TodoListProjectTests.swift */; };
 		F3A0394E288464C5003C0587 /* TodoListProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0394D288464C5003C0587 /* TodoListProjectUITests.swift */; };
 		F3A03950288464C5003C0587 /* TodoListProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0394F288464C5003C0587 /* TodoListProjectUITestsLaunchTests.swift */; };
+		F3A0395D2884680E003C0587 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0395C2884680E003C0587 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F3A03949288464C5003C0587 /* TodoListProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A0394D288464C5003C0587 /* TodoListProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListProjectUITests.swift; sourceTree = "<group>"; };
 		F3A0394F288464C5003C0587 /* TodoListProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3A0395C2884680E003C0587 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F3A03937288464C5003C0587 /* LaunchScreen.storyboard */,
 				F3A0393A288464C5003C0587 /* Info.plist */,
 				F3A03932288464C4003C0587 /* TodoListProject.xcdatamodeld */,
+				F3A0395C2884680E003C0587 /* Task.swift */,
 			);
 			path = TodoListProject;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				F3A0392E288464C4003C0587 /* ViewController.swift in Sources */,
 				F3A03934288464C4003C0587 /* TodoListProject.xcdatamodeld in Sources */,
+				F3A0395D2884680E003C0587 /* Task.swift in Sources */,
 				F3A0392A288464C4003C0587 /* AppDelegate.swift in Sources */,
 				F3A0392C288464C4003C0587 /* SceneDelegate.swift in Sources */,
 			);
