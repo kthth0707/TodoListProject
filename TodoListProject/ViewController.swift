@@ -124,7 +124,7 @@ extension ViewController: UITableViewDelegate {
         self.tasks = tasks
         
     }
-    
+    //편집모드 함수
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         self.tasks.remove(at: indexPath.row)
         tableView.deleteRows(at: [indexPath], with: .automatic)
@@ -135,6 +135,7 @@ extension ViewController: UITableViewDelegate {
         }
     }
     
+    // 셀 클릭 함수
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var task = self.tasks[indexPath.row]
         task.done = !task.done
